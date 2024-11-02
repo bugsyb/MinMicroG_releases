@@ -8,8 +8,11 @@ Prebuilt flashable zips for the MinMicroG project - fork of the great work done 
 
 This package includes long list of items it debloats automatically and it might be tuned by adding/removing appropriate paths within `defconf` as `stuff_debloat` variable.
 
+# This repo is only to hold release as I don't have time at the moment to port mods back whilst wanted to share with others like you to benefit from my mods on it.
+
+
 The main README for the project:
- - https://github.com/bugsyb/MinMicroG_releases/blob/master/README.md
+ - https://github.com/bugsyb/MinMicroG/blob/master/README.md
  - Also inside the zips
 
 Read the above document carefully before using any of the provided zip files.
