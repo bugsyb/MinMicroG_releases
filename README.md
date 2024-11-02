@@ -1,14 +1,21 @@
 # MinMicroG_releases
-Prebuilt flashable zips for the MinMicroG project
+
+Prebuilt flashable zips for the MinMicroG project - fork of the great work done by FriendlyNeighborhoodShane with further mods: 
+- updates of permissions to allow smooth start on Android 14 (tested on Unihertz Jelly Max)
+- fixes for debloating on systems where modern file-system is used: "/vendor", "/product" or "/system_ext" is where GApps are sitting, specifically GmsCore, GoogleServicesFramework, etc. otherwise there would be a race condition on boot.
+- latest MicroG Services - com.google.android.gms - 0.3.3.240913
+- latest MicroG Companion - com.android.vending - 0.3.3.40226
+
+This package includes long list of items it debloats automatically and it might be tuned by adding/removing appropriate paths within `defconf` as `stuff_debloat` variable.
 
 The main README for the project:
- - https://github.com/FriendlyNeighborhoodShane/MinMicroG/blob/master/README.md
+ - https://github.com/bugsyb/MinMicroG_releases/blob/master/README.md
  - Also inside the zips
 
 Read the above document carefully before using any of the provided zip files.
 
 Main repo for sources and build scripts:
- - https://github.com/FriendlyNeighborhoodShane/MinMicroG
+ - https://github.com/bugsyb/MinMicroG
 
 In the event of any damages to your device, house, ego barrier, baby,
 relationships, galaxy, worldview, or in general the local fabric of
